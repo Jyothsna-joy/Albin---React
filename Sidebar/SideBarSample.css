@@ -1,0 +1,49 @@
+.sidebar-top-title{
+	min-height: 80px;
+    color: #293e48;
+    background-color: #90bcb4;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+	border: 1px solid #000;
+}
+.sidebar-menu-list{
+	list-style: none !important;
+	padding-left: 0;
+}
+.menu-items{
+	min-height: 44px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    display: grid;
+    place-content: center;
+    color: #5bbcaf;
+    font-weight: 500;
+    font-size: 18px;
+}
+.change-password-outer{
+	border-bottom: 2px solid #fff;
+    text-align: center;
+    min-height: 35px;
+}
+.change-password-outer label{
+	font-size: 16px;
+    color: #000;
+    font-weight: 600;
+}
+.logout-outer{
+	font-weight: bold;
+    font-size: 16px;
+	color: #000;
+	text-align: center;
+}
+.sidebar-bottom-wrapper{
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 12px;
+    margin-top: auto;
+    margin-bottom: 22px;
+}
